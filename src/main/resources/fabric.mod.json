@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "cartloaders",
+	"version": "${version}",
+	"name": "CartLoaders",
+	"description": "Makes Minecarts load their surrounding chunks",
+	"authors": [
+		"Martmists",
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/CartLoaders"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"cartloaders.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*"
+	}
+}
